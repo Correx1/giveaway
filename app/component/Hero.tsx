@@ -94,7 +94,7 @@ export default function Giveaway() {
       {/* Header Section */}
       <header className="bg-green-700 text-white py-2 px-4 flex justify-between items-center">
         <h1 className="text-lg md:text-xl font-bold">{giveawayName}</h1>
-        <p className="text-sm">23 January 2025</p>
+        <p className="text-sm">January 2025</p>
       </header>
 
       {/* Hero Section */}
@@ -114,7 +114,7 @@ export default function Giveaway() {
             alt="Mega Star Giveaway"
             width={1920}
             height={600}
-            className="w-full h-72 object-cover  shadow-lg mx-4"
+            className="w-full h-80 object-cover  shadow-lg mx-4"
           />
         </div>
       </main>
@@ -170,6 +170,10 @@ export default function Giveaway() {
           ))}
         </div>
       </section>
+
+      <footer className="bg-green-700 text-center text-white py-4 mt-6">
+    <p className="text-sm">&copy; 2025 Mega Gifting. All rights reserved.</p>
+  </footer>
 
       {/* Result Popup */}
       {isResultVisible && (
